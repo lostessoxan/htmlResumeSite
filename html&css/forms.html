@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>FORMS</h2>
+
+<form action="">
+
+    <div>
+        <label for="_mail">Email</label>
+        <input type="email" id="_mail" value="mail@mail.ru">
+    </div>
+
+    <div>
+        <label for="_phone">Phone</label>
+        <input type="tel" id="_phone" min="0" placeholder="...phoneNumber">
+    </div>
+
+    <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" readonly placeholder="...password">
+    </div>
+
+    <div>
+        <label for="range">Range</label>
+        <input type="range" id="range">
+    </div>
+
+    <div>
+        <label for="date">Date</label>
+        <input type="date" id="date">
+    </div>
+
+    <div>
+        <label for="color">Color</label>
+        <input type="color" id="color">
+    </div>
+
+    <div>
+        <label for="message">Message</label> <br>
+        <textarea name="" id="message" cols="30" rows="10"></textarea>
+    </div>
+
+    <div>
+        <label for="sex">Gender: </label> <br>
+        <select name="" id="sex">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="">Еда: </label>
+        <input type="radio" name="food"> 1
+        <input type="radio" name="food"> 2 
+        <input type="radio" name="food"> 3
+        <input type="radio" name="food"> 4+
+    </div>
+
+    <div>
+        <label for="">Count </label>
+        <input type="checkbox" name="count"> Кортошка
+        <input type="checkbox" name="count"> Пицца 
+        <input type="checkbox" name="count"> Суши
+        <input type="checkbox" name="count"> Авокадо
+    </div>
+
+    <input type="submit" value="GO!">
+
+    <button type="submit">Another GO!</button>
+</form>
+</body>
+</html>
