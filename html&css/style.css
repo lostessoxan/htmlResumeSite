@@ -33,6 +33,10 @@ textarea {
   resize: none;
 }
 
+a {
+  color: #fff;
+}
+
 a:visited {
   color: rgb(255, 157, 0);
 }
