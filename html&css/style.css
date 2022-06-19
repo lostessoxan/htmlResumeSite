@@ -71,8 +71,8 @@ a:hover {
   position: fixed;
 }
 
-.navigation a {
-  color: rgb(14, 14, 14);
+.navigation .navv li a {
+  color: rgb(0, 0, 0);
 }
 
 .navigation #close-btn img {
