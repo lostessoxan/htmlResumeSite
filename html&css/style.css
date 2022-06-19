@@ -33,10 +33,6 @@ textarea {
   resize: none;
 }
 
-a {
-  color: #fff;
-}
-
 a:visited {
   color: rgb(255, 157, 0);
 }
@@ -73,6 +69,10 @@ a:hover {
   top: 0;
   left: -250px;
   position: fixed;
+}
+
+.navigation a {
+  color: #fff;
 }
 
 .navigation #close-btn img {
@@ -140,6 +140,10 @@ a:hover {
   color: #fff;
 }
 
+nav .container .nav li a {
+  color: #fff;
+}
+
 /* ------------------ */
 
 main {
@@ -162,6 +166,9 @@ main div {
   display: inline-block;
 }
 
+.list_of_pages a {
+  color: #fff;
+}
 /* ------------------ */
 
 .header h1 {
